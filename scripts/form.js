@@ -1,4 +1,4 @@
-fetch("/assets/dados.json")
+fetch("dados.json")
   .then(res => res.json())
   .then(dados => {
     const select = document.getElementById("carro");
