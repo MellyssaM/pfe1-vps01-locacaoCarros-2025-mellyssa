@@ -7,7 +7,7 @@ if (carrinho == null) {
     carrinho = [];
 }
 
-fetch('../assets/dados.json')
+fetch('./dados.json')
     .then(response => response.json())
     .then(data => {
         produtos = data;
