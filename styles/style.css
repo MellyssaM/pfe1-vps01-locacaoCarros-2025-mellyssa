@@ -8,16 +8,25 @@
 }
 
 :root {
-    --c1: #A0522D;
-    --c2: #8B4513;
-    --c3: #D2691E;
-    --c4: #F4A460;
-    --c5: #FFDEAD;
-    --t1: rgba(0, 0, 0, 0.8);
+    --c1: #003366;
+    --c2: #006699;
+    --c3: #0099CC;
+    --c4: #00CCFF;
+    --c5: #99DDFF;
+    --t0: rgba(0, 0, 0, 0.8);
     --t1: rgba(255, 255, 255, 0.8);
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -89,7 +98,7 @@ button:hover {
         gap: 10px;
 
         & img {
-            width: 100%;
+            width: 60%;
             border-radius: 10px;
         }
 
