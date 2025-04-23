@@ -4,7 +4,7 @@
       "modelo": "Onix LT 1.0",
       "marca": "Chevrolet",
       "ano": 2022,
-      "imagem": "./assets/onix.png",
+      "imagem": "/assets/onix.png",
       "combustivel": "Flex",
       "portas": 4,
       "transmissao": "Manual",
